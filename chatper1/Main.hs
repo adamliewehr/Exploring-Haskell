@@ -17,8 +17,10 @@ makeGreeting salutation person =
 enthusiasticGreeting salutation = 
     makeGreeting (salutation <> "!!!!")
 
-greetGeorge = (`makeGreeting` "George")
+greetPerson = makeGreeting "Hello there"
 
+greetGeorge = (`makeGreeting` "George")
+-- making greetGeorge into an infix function
 
 
 main = print "no sal to show yet"
