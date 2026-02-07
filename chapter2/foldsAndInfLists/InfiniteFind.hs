@@ -5,6 +5,3 @@ findFirst predicate =
         findHelper listElement maybeFound
             | predicate listElement = [listElement]
             | otherwise = maybeFound
-
-
-             
