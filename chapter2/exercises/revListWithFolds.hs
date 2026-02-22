@@ -1,0 +1,4 @@
+
+
+revList lst = 
+    foldr (:) [] lst
