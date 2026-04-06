@@ -3,9 +3,7 @@
 -- makeGreeting salutation person = 
 --     salutation <> " " <> person
 
-
 -- greetPerson = makeGreeting "Hello"
-
 
 -- -- here we are just changing the output of the first param
 -- enthusiasticGreeting salutation = 
