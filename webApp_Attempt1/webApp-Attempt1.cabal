@@ -72,7 +72,8 @@ executable webApp-Attempt1
                       scotty,
                       aeson,
                       text,
-                      wai-middleware-static
+                      wai-middleware-static,
+                      gloss
     -- Directories containing source files.
     hs-source-dirs:   app
 
